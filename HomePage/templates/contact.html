@@ -1,0 +1,97 @@
+{% extends 'navbar.html' %}
+{% load static %}
+{% block section %}
+  <!-- End menu -->
+  <!-- Start search box -->
+ <!-- Start contact  -->
+ <section id="mu-page-breadcrumb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-page-breadcrumb-area">
+            <h2>Contact</h2>
+            <ol class="breadcrumb">
+             <li><a href="#">Home</a></li>            
+             <li class="active">Contact</li>
+           </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+ <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+           <!-- start title -->
+           <div class="mu-title">
+             <h2>Get in Touch</h2>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut laboriosam corporis doloribus, officia, accusamus illo nam tempore totam alias!</p>
+           </div>
+           <!-- end title -->
+           <!-- start contact content -->
+           <div class="mu-contact-content">           
+             <div class="row">
+               <div class="col-md-6">
+                 <div class="mu-contact-left">
+                   <form class="contactform">                  
+                     <p class="comment-form-author">
+                       <label for="author">Name <span class="required">*</span></label>
+                       <input type="text" required="required" size="30" value="" name="author">
+                     </p>
+                     <p class="comment-form-email">
+                       <label for="email">Email <span class="required">*</span></label>
+                       <input type="email" required="required" aria-required="true" value="" name="email">
+                     </p>
+                     <p class="comment-form-url">
+                       <label for="subject">Subject</label>
+                       <input type="text" name="subject">  
+                     </p>
+                     <p class="comment-form-comment">
+                       <label for="comment">Message</label>
+                       <textarea required="required" aria-required="true" rows="8" cols="45" name="comment"></textarea>
+                     </p>                
+                     <p class="form-submit">
+                       <input type="submit" value="Send Message" class="mu-post-btn" name="submit">
+                     </p>        
+                   </form>
+                 </div>
+               </div>
+               
+               <div class="col-md-6">
+                <div class="mapouter">
+                    <div class="gmap_canvas">
+                        <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=new%20era%20english%20boarding%20school,%20shantinagar,%20nepal&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        <a href="https://putlocker-is.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">responsive google map</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+                    </div>
+            </div>
+               </div>
+             </div>
+           </div>
+           <!-- end contact content -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End contact  -->
+
+
+  <!-- End from blog -->
+  {% include 'footer.html' %}
+  {% include 'scripts.html' %}
+
+</body>
+</html>
+{% endblock section %}
+
+
+
+
+  
+ 
+
